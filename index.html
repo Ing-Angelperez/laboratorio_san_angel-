@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laboratorio San Ángel | Análisis Clínicos — Guadalajara</title>
+  <meta name="description" content="Laboratorio San Ángel — Análisis clínicos con precisión, rapidez y atención personalizada en Guadalajara, Jalisco. Resultados confiables para tu salud." />
+
+  <!-- Open Graph (preview en WhatsApp y redes) -->
+  <meta property="og:title" content="Laboratorio San Ángel | Análisis Clínicos" />
+  <meta property="og:description" content="Análisis clínicos con precisión, rapidez y atención personalizada. Resultados el mismo día. Guadalajara, Jalisco." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_MX" />
+
+  <!--
+    SCHEMA MARKUP
+    Código invisible que Google lee para saber exactamente quién eres,
+    dónde estás, qué servicios ofreces y cuándo abres.
+    Mejora tu posición en búsquedas locales de Guadalajara.
+    PENDIENTE: Reemplaza la URL cuando tengas dominio propio.
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalBusiness",
+        "@id": "https://laboratoriosanangel.netlify.app/#negocio",
+        "name": "Laboratorio San Ángel",
+        "description": "Laboratorio de análisis clínicos con 20 años de experiencia, precisión, rapidez y atención personalizada en Guadalajara, Jalisco.",
+        "url": "https://laboratoriosanangel.netlify.app",
+        "telephone": "+52-33-3330-1604",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. José María Iglesias 3846",
+          "addressLocality": "Guadalajara",
+          "addressRegion": "Jalisco",
+          "addressCountry": "MX"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "20.6597",
+          "longitude": "-103.3496"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "08:00",
+            "closes": "16:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "14:00"
+          }
+        ],
+        "medicalSpecialty": "Pathology",
+        "availableService": [
+          { "@type": "MedicalTest", "name": "Biometría Hemática" },
+          { "@type": "MedicalTest", "name": "Química Sanguínea" },
+          { "@type": "MedicalTest", "name": "Examen General de Orina" },
+          { "@type": "MedicalTest", "name": "Perfil Tiroideo" },
+          { "@type": "MedicalTest", "name": "Perfil Lipídico" },
+          { "@type": "MedicalTest", "name": "Perfil Hepático" },
+          { "@type": "MedicalTest", "name": "Cultivos y Antibiograma" },
+          { "@type": "MedicalTest", "name": "Pruebas de Coagulación" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Necesito hacer cita para mis análisis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No es necesaria una cita previa para la mayoría de estudios de rutina. Puedes llegar directamente en nuestro horario de atención. Para estudios especiales, te recomendamos llamarnos con anticipación."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto tiempo tardan mis resultados?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La mayoría de estudios de rutina están listos el mismo día, en 2 a 4 horas. Estudios especiales como cultivos pueden tardar 24 a 72 horas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Necesito orden médica para hacerme un análisis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No es indispensable. Puedes solicitar cualquier estudio directamente sin receta médica."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuántas horas de ayuno necesito?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Para estudios de química sanguínea se requieren entre 8 y 12 horas de ayuno. Para biometría hemática u orina no es necesario el ayuno."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Atienden a niños y adultos mayores?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, atendemos a pacientes de todas las edades con personal capacitado para toma de muestras en niños y adultos mayores."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#inicio">Lab <span>San Ángel</span></a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#preparacion">Preparación</a></li>
+    <li><a href="#faq">Preguntas</a></li>
+    <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="inicio">
+  <div class="hero-text">
+    <span class="hero-tag">Laboratorio de Análisis Clínicos — Guadalajara</span>
+    <h1 class="hero-title">Tu salud merece <em>resultados</em> confiables</h1>
+    <p class="hero-desc">En Laboratorio San Ángel realizamos análisis clínicos con más de 20 años de experiencia, equipos de precisión y atención personalizada.</p>
+    <div class="hero-btns">
+      <a href="#servicios" class="btn-primary">Ver estudios</a>
+      <a href="#contacto" class="btn-outline">Agendar cita</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="stat-cards">
+      <div class="stat-card"><span class="num">+50</span><span class="label">Tipos de estudios</span></div>
+      <div class="stat-card"><span class="num">Mismo día</span><span class="label">Entrega de resultados</span></div>
+      <div class="stat-card"><span class="num">100%</span><span class="label">Resultados confiables</span></div>
+      <div class="stat-card"><span class="num">+20</span><span class="label">Años de experiencia</span></div>
+    </div>
+    <div class="hero-badge">
+      <div class="icon">🏥</div>
+      <div><strong>Personal certificado</strong><span>Químicos y técnicos especializados</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <p class="section-label">Nuestros estudios</p>
+  <h2 class="section-title">Análisis que realizamos</h2>
+  <p class="section-desc">Contamos con una amplia gama de estudios para el cuidado de tu salud y la de tu familia.</p>
+  <div class="services-grid">
+    <div class="service-card"><div class="service-icon">🩸</div><h3>Biometría Hemática</h3><p>Conteo completo de células sanguíneas para evaluar tu salud general.</p></div>
+    <div class="service-card"><div class="service-icon">🧪</div><h3>Química Sanguínea</h3><p>Glucosa, urea, creatinina, colesterol, triglicéridos y más.</p></div>
+    <div class="service-card"><div class="service-icon">🔬</div><h3>Examen General de Orina</h3><p>Análisis físico, químico y microscópico de la orina.</p></div>
+    <div class="service-card"><div class="service-icon">⚗️</div><h3>Perfil Tiroideo</h3><p>TSH, T3 y T4 para evaluar la función de la tiroides.</p></div>
+    <div class="service-card"><div class="service-icon">🧬</div><h3>Pruebas de Coagulación</h3><p>TP, TTP y otros factores de coagulación.</p></div>
+    <div class="service-card"><div class="service-icon">💉</div><h3>Perfil Hepático</h3><p>Evaluación de la función del hígado con enzimas y bilirrubinas.</p></div>
+    <div class="service-card"><div class="service-icon">🫀</div><h3>Perfil Lipídico</h3><p>Colesterol total, HDL, LDL y triglicéridos.</p></div>
+    <div class="service-card"><div class="service-icon">🔍</div><h3>Cultivos y Antibiograma</h3><p>Identificación de bacterias y sensibilidad a antibióticos.</p></div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="why-grid">
+    <div class="why-left">
+      <p class="section-label">Por qué elegirnos</p>
+      <h2 class="section-title">Precisión, rapidez y trato humano</h2>
+      <p class="section-desc">Somos un laboratorio local con más de 20 años de experiencia, comprometido con la calidad y la atención cercana a nuestros pacientes.</p>
+      <div class="why-items">
+        <div class="why-item"><div class="why-dot">⚡</div><div><h4>Resultados el mismo día</h4><p>La mayoría de estudios listos en 2 a 4 horas.</p></div></div>
+        <div class="why-item"><div class="why-dot">🎯</div><div><h4>Equipo de precisión</h4><p>Analizadores automatizados calibrados regularmente.</p></div></div>
+        <div class="why-item"><div class="why-dot">🤝</div><div><h4>Atención personalizada</h4><p>Te orientamos para que entiendas tus resultados.</p></div></div>
+        <div class="why-item"><div class="why-dot">📍</div><div><h4>Fácil acceso en Guadalajara</h4><p>Ubicados sobre Av. José María Iglesias, con fácil acceso desde toda la zona.</p></div></div>
+      </div>
+    </div>
+    <div class="why-right">
+      <h3>Indicaciones generales antes de tu estudio</h3>
+      <ul class="prep-list">
+        <li>Llega en ayuno de 8 a 12 horas para estudios de química sanguínea.</li>
+        <li>Hidratarte bien (solo agua) facilita la toma de muestra.</li>
+        <li>Informa al personal sobre medicamentos que estés tomando.</li>
+        <li>Usa ropa cómoda con mangas fáciles de subir.</li>
+        <li>Trae tu orden médica si tu doctor te la proporcionó.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PREPARACIÓN -->
+<section id="preparacion">
+  <p class="section-label">Antes de venir</p>
+  <h2 class="section-title">Cómo prepararte para tus análisis</h2>
+  <p class="section-desc">Seguir estas indicaciones garantiza resultados precisos y confiables.</p>
+  <div class="prep-cards">
+    <div class="prep-card"><span class="prep-num">01</span><h3>Ayuno</h3><p>Para glucosa, colesterol y perfil lipídico: 8–12 horas sin comer. Solo agua natural.</p></div>
+    <div class="prep-card"><span class="prep-num">02</span><h3>Orina de primera emisión</h3><p>Para examen general de orina, lleva la primera orina de la mañana en un frasco limpio.</p></div>
+    <div class="prep-card"><span class="prep-num">03</span><h3>Medicamentos</h3><p>Consulta con tu médico si debes suspender algún medicamento antes del estudio.</p></div>
+    <div class="prep-card"><span class="prep-num">04</span><h3>Actividad física</h3><p>Evita ejercicio intenso 24 horas antes de estudios de enzimas musculares o creatinina.</p></div>
+    <div class="prep-card"><span class="prep-num">05</span><h3>Horario recomendado</h3><p>Ven por las mañanas para aprovechar tu ayuno y recibir resultados más rápido.</p></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <p class="section-label">Dudas frecuentes</p>
+  <h2 class="section-title">Preguntas frecuentes</h2>
+  <p class="section-desc">Resolvemos las dudas más comunes de nuestros pacientes.</p>
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">¿Necesito hacer cita para mis análisis?<span class="faq-icon">+</span></button>
+      <div class="faq-answer">No es necesaria una cita previa para la mayoría de estudios de rutina. Puedes llegar directamente en nuestro horario de atención. Para estudios especiales o de mayor volumen, te recomendamos llamarnos con anticipación.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">¿Cuánto tiempo tardan mis resultados?<span class="faq-icon">+</span></button>
+      <div class="faq-answer">La mayoría de estudios de rutina (biometría, química sanguínea, orina) están listos el mismo día, generalmente en 2 a 4 horas. Estudios especiales como cultivos o perfiles hormonales pueden tardar 24 a 72 horas.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">¿Cómo recibo mis resultados?<span class="faq-icon">+</span></button>
+      <div class="faq-answer">Puedes recoger tus resultados directamente en el laboratorio. También los enviamos por WhatsApp o correo electrónico si así lo prefieres al momento de registrarte.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">¿Necesito orden médica para hacerme un análisis?<span class="faq-icon">+</span></button>
+      <div class="faq-answer">No es indispensable. Puedes solicitar cualquier estudio directamente sin receta médica. Si tu médico te dio una orden, tráela para realizar exactamente lo indicado.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">¿Qué formas de pago aceptan?<span class="faq-icon">+</span></button>
+      <div class="faq-answer">Aceptamos efectivo y transferencia bancaria. Consulta con nosotros sobre otros métodos disponibles al momento de tu visita.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">¿Atienden a niños y adultos mayores?<span class="faq-icon">+</span></button>
+      <div class="faq-answer">Sí, atendemos a pacientes de todas las edades. Contamos con personal capacitado para toma de muestras en niños y adultos mayores, con la paciencia y el cuidado que cada paciente merece.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">¿Cuántas horas de ayuno necesito?<span class="faq-icon">+</span></button>
+      <div class="faq-answer">Para la mayoría de estudios de química sanguínea (glucosa, colesterol, triglicéridos) se requieren entre 8 y 12 horas de ayuno. Para biometría hemática u orina no es necesario el ayuno. Si tienes duda sobre tu estudio específico, consúltanos.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <p class="section-label">Estamos aquí</p>
+  <h2 class="section-title">Contáctanos</h2>
+  <p class="section-desc">Agenda tu cita o escríbenos con cualquier duda. Con gusto te atendemos.</p>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div><h4>Dirección</h4><p>Av. José María Iglesias 3846<br>Guadalajara, Jalisco, México</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📞</div>
+        <div><h4>Teléfono</h4><p><a href="tel:+523333301604">33 3330 1604</a></p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">💬</div>
+        <div><h4>WhatsApp</h4><p><a href="https://wa.me/523314503165" target="_blank" rel="noopener">Envíanos un mensaje</a></p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🕐</div>
+        <div><h4>Horario</h4><p>Lunes a Viernes 8:00 – 16:00<br>Sábados 8:00 – 14:00</p></div>
+      </div>
+    </div>
+    <div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <input type="text" placeholder="Tu nombre" required />
+        <input type="tel" placeholder="Tu teléfono o WhatsApp" required />
+        <input type="text" placeholder="Estudio que necesitas" />
+        <textarea placeholder="¿Tienes alguna duda o comentario?"></textarea>
+        <button type="submit">Enviar mensaje →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p><strong>Laboratorio San Ángel</strong> — Análisis Clínicos · Guadalajara, Jalisco · Todos los derechos reservados © 2026</p>
+</footer>
+
+<!-- BOTÓN FLOTANTE WHATSAPP -->
+<a class="wa-float"
+   href="https://wa.me/523314503165?text=Hola%2C%20me%20gustar%C3%ADa%20informarme%20sobre%20sus%20servicios"
+   target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+  <span>¿Tienes dudas? Escríbenos</span>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
